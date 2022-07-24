@@ -319,12 +319,12 @@ margin-bottom: 28px;
 
 }
 
-.social-list-icon {
+. {
     fill: #AFB1B8;
 }
 
-.social-list-icon:hover,
-.social-list-icon:focus {
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
     fill: var(--whitey-color);
 }
 
