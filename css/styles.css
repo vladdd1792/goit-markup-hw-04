@@ -197,6 +197,8 @@ margin-bottom: 30px;
     
 
 }
+
+
 .modal-btn {
     font-family: 'Roboto', sans-serif;
    font-weight: 700;
@@ -212,6 +214,21 @@ margin-bottom: 30px;
    
    width: 200px;
    height: 50px;
+}
+
+.satellite {
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom:  30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.obraz {
+    background: #212121;
 }
 
 .ol-rel-tel {
@@ -316,6 +333,7 @@ margin-bottom: 28px;
 .social-list-link:hover,
 .social-list-link:focus {
     background-color: #2196F3;
+    
 
 }
 
