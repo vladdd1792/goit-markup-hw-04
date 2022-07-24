@@ -313,10 +313,22 @@ margin-bottom: 28px;
     border-radius: 50%;
     background-color: #FFFFFF;
 }
+.social-list-link:hover,
+.social-list-link:focus {
+    background-color: #2196F3;
+
+}
 
 .social-list-icon {
     fill: #AFB1B8;
 }
+
+.social-list-link:hover .social-list-icon
+.social-list-link:focus .social-list-icon {
+    fill: var(--whitey-color);
+}
+
+
 .team {
     font-family: 'Roboto', sans-serif;
 font-size: 36px;
