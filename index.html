@@ -6,111 +6,168 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
+        <link rel="stylesheet" href="./css/styles.css" />
     </head>
+    
     <body>
-        <header> 
-            <nav>
-            <a id="logo"  href="">
-                <span>WebStudio</span>  
+        <!--HEADER--> 
+        <header class="page-header"> 
+            <div class="container page-header-container">
+            <nav class="page-nav">
+            <a href=""  class="logo">
+                <span class="logotipe">Web</span><span class="logotipp">Studio</span> 
             </a>
-            <ul>
-                <li><a href="">Студия</a></li>
-                <li><a href="">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
+            <ul class="menu-li">
+                <li class="menu-item"><a class="menu-li" href="./index.html">Студия</a></li>
+                <li class="menu-item"><a class="menu-li" href="./portfolio.html">Портфолио</a></li>
+                <li class="menu-item"><a class="menu-li" href="">Контакты</a></li>
             </ul>
-            </nav>
-            <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+38096111111">+38 096 111 11 11</a></li>
-            </ul> 
+           </nav>
+            <ul class="contact">
+            <li class="contact"><a class="contact-maill" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="contact"><a class="contact-phoun-number" href="tel:+38096111111">+38 096 111 11 11</a></li>
+            </ul>
+        </div>
         </header>
         <main>
-            <div>
-                <h1>Эффективные решения для вашего бизнеса</h1>
-                <button type="button">Заказать услугу</button>
-            </div>
-            <section>
+            <!--HERO-->
+            <section class="hero">
+               <h1 class="page-title">Эффективные решения для вашего бизнеса</h1>
+               <button  class="modal-btn" type="button">Заказать услугу</button>
+            </section> 
+         <section class="text1">
             <h2 hidden> Наши достоинства</h2>
-            <ul>
-                <li>
-                    <h3>Внимание к деталям</h3>
-                    <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+            <div class="container">
+            <ul class="text">
+                <li class="ol-rel-tel">
+                    <h3 class="rel">Внимание к деталям</h3>
+                    <p class="tel">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
-                <li>
-                    <h3>Пунктуальность</h3>
-                    <p>Задача организации, в особнности же рамки и место обучения кадров влечет за собой.</p>
+                <li class="ol-rel-tel">
+                    <h3 class="rel">Пунктуальность</h3>
+                    <p class="tel">Задача организации, в особнности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
-                <li>
-                    <h3>Планирование</h3>
-                    <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                <li class="ol-rel-tel">
+                    <h3 class="rel">Планирование</h3>
+                    <p class="tel">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
-                <li>
-                    <h3>Современные технологии</h3>
-                    <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                <li class="ol-rel-tel">
+                    <h3 class="rel">Современные технологии</h3>
+                    <p class="tel">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
+            </div>
             </section>
-            <section>
-                <h2>Чем мы занимаемся</h2>
-                <ul>
-                    <li>
+            <section class="photoss">
+                <div class="container">
+                <h2 class="work">Чем мы занимаемся</h2>
+                <ul class="cont-photo">
+                    <li class="photo1">
                     <img src="./images/whatarewedoing/list.jpg" alt="пишет письмо" width="370"  height="294"/>
                     </li>
-                    <li>
+                    <li class="photo2">
                     <img src="./images/whatarewedoing/nout.jpg" alt="работает на ноутбуке" width="370"  height="294"/>
                     </li>
-                    <li>
+                    <li class="photo3">
                     <img src="./images/whatarewedoing/pl.jpg" alt="работает на плашете" width="370"  height="294"/>
                     </li>
                 </ul>
+                </div>
             </section>
-            <section>
-                <h2>Наша команда</h2>
-                <ul>
-                    <li>
+            <!--HERO-->
+            <!--ABOUT-->
+            <section class="employes-section section" id="out-team">
+                <h2 class="team">Наша команда</h2>
+                <div class="container">
+                    <ul class="employes">
+                    <li class="employes-card">
                         <img src="./images/ourteam/img-3.jpg" alt="фото Игорь Демьяненко" width="270" height="260"/>
-                         <h3>Игорь Демьяненко</h3>
-                         <p lang="en">Product Designer</p>
+                        <div class="name-position">
+                        <h3 class="suptitle">Игорь Демьяненко</h3>
+                         <p  class="suptitles" lang="en">Product Designer</p>
+                         <ul class="social-list">
+                         <li class="social-list-item">
+                            <a href="" class="social-list-link">
+                                <svg class="social-list-icon" width="20" height="20">
+                                    <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                            </li>
+                            <li class="social-list-item">
+                                <a href="" class="social-list-link">
+                                    <svg class="social-list-icon" width="20" height="20">
+                                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-list-item">
+                                <a href="" class="social-list-link" width="20" height="20">
+                                    <svg class="social-list-icon">
+                                        <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-list-item">
+                                <a href="" class="social-list-link" width="20" height="20" >
+                                    <svg class="social-list-icon">
+                                        <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                        </div>
                     </li>
-                    <li><img src="./images/ourteam/img-4.jpg" alt="фото Ольга Репина" width="270"  height="260"/>
-                         <h3>Ольга Репина</h3>
-                         <p lang="en">Frontend Developer</p>
+                    <li class="employes-card"><img src="./images/ourteam/img-4.jpg" alt="фото Ольга Репина" width="270"  height="260"/>
+                         <div class="name-position">
+                        <h3 class="suptitle">Ольга Репина</h3>
+                         <p  class="suptitles" lang="en">Frontend Developer</p>
+                        </div>
                     </li>
-                    <li><img src="./images/ourteam/img-5.jpg" alt="фото Николай Тарасов " width="270" height="260"/>
-                        <h3>Николай Тарасов</h3>
-                        <p lang="en">Marketing</p>
+                    <li class="employes-card"><img src="./images/ourteam/img-5.jpg" alt="фото Николай Тарасов " width="270" height="260"/>
+                        <div class="name-position">
+                        <h3 class="suptitle">Николай Тарасов</h3>
+                        <p  class="suptitles" lang="en">Marketing</p>
+                        </div>
                     </li>
-                    <li>
+                    <li class="employes-card">
                         <img src="./images/ourteam/img-6.jpg" alt="фото Михаил Ермаков" width="270" height="260"/>
-                    <h3>Михаил Ермаков</h3>
-                         <p lang="en">UI Designer</p>
+                         <div class="name-position">
+                        <h3 class="suptitle">Михаил Ермаков</h3>
+                         <p  class="suptitles" lang="en">UI Designer</p>
+                        </div>
                     </li>
                    
                 </ul>
+            </div>
             </section>
-        </main>
-        <footer>
+        </main> 
+        <!--ABOUT-->
+        <!--FOOTER-->
+        <footer class="footer">
+                <div class="container log">
                 <a id="logo"  href="">
-                    <span>WebStudio</span>  
+                    <span class="logotipe">Web</span><span class="logotips">Studio</span> 
                 </a>
+                </div>
             <address>
-                <ul>
-                    <li><a href="">г. Киев, пр-т Леси Украинки, 26
-    
-                    </a>
+                <ul class="container">
+                    <li class="cl21">
+                        <a class="cl1" href="">г. Киев, пр-т Леси Украинки, 26</a>
                 </li>
-                    <li><a href="mailto:info@example.com">info@example.com
-    
-                    </a>
+                    <li class="cl2">
+                        <a class="cl" href="mailto:info@example.com">info@example.com </a>
                 </li>
-                    <li><a href="tel:+380991111111">+38 099 111 11 11
-    
-                    </a>
+                    <li class="cl2">
+                        <a class="cl" href="tel:+380991111111">+38 099 111 11 11</a>
                 </li>
                 </ul>
     
             </address>
         </footer>
-    
+      <!--FOOTER-->
     </body>
 </html>
