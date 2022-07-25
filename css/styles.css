@@ -228,9 +228,8 @@ margin-bottom: 30px;
 }
 
 .obraz {
-    fill: solid #212121;
+    background-color: #212121;;
 }
-
 .ol-rel-tel {
     width: 270px;
 }
@@ -266,6 +265,60 @@ letter-spacing: 0.03em;
 
 color: var(--text-color);
 margin-bottom: 50px;
+}
+
+.client-title {
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+margin-top: 94px;
+margin-bottom: 50px;
+}
+
+.client-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.client-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid rgba(175, 177, 184, 1) ;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 94px;
+}
+
+.client-icon {
+    fill: #AFB1B8;
+}
+
+.client-item:hover .client-icon,
+.client-item:focus  .client-icon{
+    fill: var(--accent-color);
+}
+
+.client-link:hover,
+.client-link:focus {
+    fill: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    border-radius: 4px;
 }
 /*-----------------------------------/HERO--*/
 
