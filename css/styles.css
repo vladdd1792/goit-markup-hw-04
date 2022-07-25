@@ -283,8 +283,8 @@ margin-bottom: 50px;
 
 .client-list {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    gap: 30px;
 }
 
 .client-item {
@@ -295,13 +295,14 @@ margin-bottom: 50px;
 
 .client-link {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 170px;
-    height: 92px;
-    border: 1px solid rgba(175, 177, 184, 1) ;
+    height: 70px;
+    border: 1px solid #AFB1B8;
     border-radius: 4px;
-    cursor: pointer;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 94px;
 }
 
@@ -310,13 +311,13 @@ margin-bottom: 50px;
 }
 
 .client-item:hover .client-icon,
-.client-item:focus  .client-icon{
-    fill: var(--accent-color);
+.client-item:focus .client-icon{
+    fill:#2196F3;
 }
 
 .client-link:hover,
 .client-link:focus {
-    fill: var(--accent-color);
+    fill:#2196F3;
     border: 1px solid var(--accent-color);
     border-radius: 4px;
 }
