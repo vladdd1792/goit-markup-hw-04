@@ -75,12 +75,12 @@ img {
 .contact {
     display: flex;
     align-items: center;
-    margin-left: auto;
 }
 
-contact-item {
-    margin-right: 50px;}
 
+.contact-items {
+    margin-right: 50px;
+}
 
 .menu-li {
     display: flex;
@@ -159,7 +159,18 @@ color:var(--mail-color);
     line-height: 1.14px;
     letter-spacing: 0.02em;
     
-    color: var(--knob-color);
+    color: var(--mail-color);
+}
+.contact-maill-cont {
+    justify-content: center;
+    text-align: center;
+    margin-right: 10px;
+    fill: currentColor;
+}
+
+.contact-maill-svg {
+    margin-right: 10px;
+    fill: currentColor;
 }
 /*======================================/HEADER*/
 /*--------------------------------------HERO--*/
