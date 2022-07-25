@@ -219,7 +219,7 @@ margin-bottom: 30px;
 .satellite {
     width: 270px;
     height: 120px;
-    background: #F5F4FA;
+    background-color: #F5F4FA;
     border-radius: 4px;
     margin-bottom:  30px;
     justify-content: center;
@@ -228,7 +228,7 @@ margin-bottom: 30px;
 }
 
 .obraz {
-    background: #212121;
+    fill: solid #212121;
 }
 
 .ol-rel-tel {
