@@ -17,7 +17,14 @@ body {
     padding-right: 15px;
 }
 
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 :root {
+    --font-family-main: 'Roboto', sans-serif;
+    --font-family-logo: 'Raleway', sans-serif;
     --knob-color: #2196F3;
     --text-color: #212121;;
     --whitey-color: #FFFFFF;
@@ -285,28 +292,27 @@ margin-bottom: 50px;
     display: flex;
     justify-content: center;
     gap: 30px;
+    margin-top: 50px;
 }
 
 .client-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 170px;
+    height: 92px;
 }
 
 .client-link {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 170px;
     height: 70px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 94px;
 }
 
 .client-icon {
+    width: 106px;
+    height: 60px;
     fill: #AFB1B8;
 }
 
