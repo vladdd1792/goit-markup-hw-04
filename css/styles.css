@@ -186,8 +186,7 @@ color:var(--text-color);
     margin-right: 10px;
 }
 
-.contact-maill:hover, 
-.ontact-phoun-number:hover {
+.contact-maill:hover{
     color: #2196F3;
 }
 /*======================================/HEADER*/

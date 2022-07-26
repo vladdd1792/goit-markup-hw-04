@@ -428,8 +428,12 @@ color: rgba(255, 255, 255, 0.6);
     width: 20px;
     height: 20px;
 }
+
 .social-link-footer:hover,
 .social-link-footer:focus {
     background-color: #2196F3; 
 }
+
+
+
 /*=================FOOTER====================*/
