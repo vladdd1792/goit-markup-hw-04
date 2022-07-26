@@ -193,7 +193,7 @@ color:var(--text-color);
 }
 
 .contact-maill:hover,
-.contact-phoun-number:hover {
+.contact-maill-cont:hover {
     color: #2196F3;
 }
 /*--/======================HEADER--*/
