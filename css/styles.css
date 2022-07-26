@@ -188,9 +188,9 @@ color:var(--text-color);
     fill: currentColor;
 }
 
-.contact:hover
-.contac:focus {
-    color: var(--knob-color);
+.contact-maill:hover,
+.contact-phoun-number:hover {
+    color: #2196F3;
 }
 /*======================================/HEADER*/
 /*--------------------------------------HERO--*/
@@ -632,8 +632,8 @@ color: rgba(255, 255, 255, 0.6);
     height: 20px;
 }
 
-.social-link-footer :hover 
-.social-list-footer :focus  {
+.social-list-item :hover 
+.social-list-item :focus  {
     fill: var(--knob-color);
 }
 
