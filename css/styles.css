@@ -182,12 +182,12 @@ color:var(--text-color);
     text-align: center;
 }
 
-.contact-maill, .contact-maill-svg {
+.contact-maill-svg {
     margin-right: 10px;
 }
 
 .contact-maill:hover, 
-.contact-maill-cont:hover {
+.ontact-phoun-number:hover {
     color: #2196F3;
 }
 /*======================================/HEADER*/
