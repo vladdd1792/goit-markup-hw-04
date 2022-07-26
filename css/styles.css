@@ -250,9 +250,6 @@ margin-bottom: 30px;
     display: flex;
 }
 
-.obraz {
-    background-color: #212121;;
-}
 .ol-rel-tel {
     width: 270px;
 }
@@ -614,5 +611,11 @@ color: rgba(255, 255, 255, 0.6);
     width: 20px;
     height: 20px;
 }
+
+.social-link-footer :hover .soc-icon-footer,
+.social-list-footer :focus .soc-icon-footer {
+    fill: var(--knob-color);
+}
+
 
 /*---------------------------------/FOOTER--*/
