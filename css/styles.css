@@ -182,10 +182,9 @@ color:var(--text-color);
     text-align: center;
 }
 
-.contact-maill
+.contact-maill,
 .contact-maill-svg {
     margin-right: 10px;
-    fill: currentColor;
 }
 
 .contact-maill:hover,
@@ -636,6 +635,7 @@ color: rgba(255, 255, 255, 0.6);
 .social-list-item :focus  {
     fill: var(--knob-color);
 }
+
 
 
 /*---------------------------------/FOOTER--*/
