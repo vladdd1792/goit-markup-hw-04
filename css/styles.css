@@ -77,8 +77,20 @@ img {
     align-items: center;
 }
 
+.contact-items :not(:last-child) {
+    margin-right: 50px;
+}
 
 .contact-items {
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
     margin-right: 50px;
 }
 
@@ -134,13 +146,15 @@ color:var(--text-color);
     color: var(--knob-color);
 }
 .contact-phoun-number {
-    font-family: 'Roboto', sans-serif;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14px;
-letter-spacing: 0.02em;
-margin-left: auto;
-color:var(--mail-color);
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
 
 }
  .menu-link-list {
@@ -153,24 +167,30 @@ color:var(--mail-color);
 }
 
 .contact-maill { 
-    font-family: 'Roboto', sans-serif ;
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: var(--primary-font);
+    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
-    
-    color: var(--mail-color);
+    color: #757575;
 }
 .contact-maill-cont {
     justify-content: center;
     text-align: center;
+}
+
+.contact-maill
+.contact-maill-svg {
     margin-right: 10px;
     fill: currentColor;
 }
 
-.contact-maill-svg {
-    margin-right: 10px;
-    fill: currentColor;
+.contact:hover
+.contac:focus {
+    color: var(--knob-color);
 }
 /*======================================/HEADER*/
 /*--------------------------------------HERO--*/
@@ -612,8 +632,8 @@ color: rgba(255, 255, 255, 0.6);
     height: 20px;
 }
 
-.social-link-footer :hover .soc-icon-footer,
-.social-list-footer :focus .soc-icon-footer {
+.social-link-footer :hover 
+.social-list-footer :focus  {
     fill: var(--knob-color);
 }
 
