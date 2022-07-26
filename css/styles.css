@@ -631,9 +631,9 @@ color: rgba(255, 255, 255, 0.6);
     height: 20px;
 }
 
-.social-list-item :hover 
-.social-list-item :focus  {
-    fill: var(--knob-color);
+.social-link-footer:hover,
+.social-link-footer:focus {
+    background-color: #2196F3; 
 }
 
 
