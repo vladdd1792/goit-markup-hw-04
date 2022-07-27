@@ -443,19 +443,13 @@ margin-bottom: 16px;
     border-radius: 50%;
     background-color: #FFFFFF;
 }
-.social-list-link:hover,
-.social-list-link:focus {
-    background-color: #2196F3;
-    
-
-}
 
 .social-list-icon {
     fill: #AFB1B8;
 }
 
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus  .social-list-icon {
+.social-list-link:hover 
+.social-list-link:focus   {
     fill: var(--whitey-color);
 }
 
