@@ -460,13 +460,13 @@ margin-bottom: 16px;
     fill: var(--whitey-color);
 }
 
-.client-link:hover .client-icon,
-.client-link:focus .client-icon {
+.client-item:hover .client-icon,
+.client-item:focus .client-icon {
     fill: var(--knob-color)
 }
 
-.client-link:hover, 
-.client-link:focus {
+.client-item:hover, 
+.client-item:focus {
     fill: var(--mail-color);
     border-color: 1px solid #188CE8;
 }
