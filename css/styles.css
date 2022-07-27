@@ -465,7 +465,7 @@ margin-bottom: 16px;
     fill: var(--knob-color)
 }
 
-.client-link:hover 
+.client-link:hover, 
 .client-link:focus {
     fill: var(--mail-color);
     border-color: 1px solid #188CE8;
