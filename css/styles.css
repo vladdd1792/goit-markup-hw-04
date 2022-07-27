@@ -453,8 +453,8 @@ margin-bottom: 16px;
     fill: var(--whitey-color);
 }
 
-.client-item:hover .client-icon,
-.client-item:focus .client-icon {
+.client-item:hover .client-link,
+.client-item:focus .client-link{
     fill: var(--knob-color)
 }
 
