@@ -665,8 +665,8 @@ color: rgba(255, 255, 255, 0.6);
 
 .social-link-footer:hover,
 .social-link-footer:focus,
-.soc-icon-footer:hover,
-.soc-icon-footer:focus {
+.social-list-item:hover,
+.social-list-item:focus {
     background-color: #2196F3; 
 }
 
