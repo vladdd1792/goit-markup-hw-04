@@ -664,9 +664,7 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 .social-link-footer:hover,
-.social-link-footer:focus,
-.social-list-item:hover,
-.social-list-item:focus {
+.social-link-footer:focus {
     background-color: #2196F3; 
 }
 
