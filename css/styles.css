@@ -204,8 +204,7 @@ margin-right: 30px;
 }
     
 .contact-maill:hover,
-.contact-maill:focus
-.contact-phoun-number:hover {
+.contact-maill:focus {
   color: #2196F3;
 }
 
@@ -468,7 +467,7 @@ margin-bottom: 16px;
 .client-item:hover, 
 .client-item:focus {
     fill: var(--mail-color);
-    border-color: 1px solid #188CE8;
+    border: 1px solid #188CE8;
 }
 
 
