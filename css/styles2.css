@@ -194,6 +194,7 @@ color:var(--text-color);
 }
 
 .contact-maill:hover,
+.contact-maill:focus
 .contact-phoun-number:hover {
     color: #2196F3;
 }

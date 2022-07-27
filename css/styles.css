@@ -204,6 +204,7 @@ margin-right: 30px;
 }
     
 .contact-maill:hover,
+.contact-maill:focus
 .contact-phoun-number:hover {
   color: #2196F3;
 }
@@ -336,7 +337,7 @@ text-align: center;
 letter-spacing: 0.03em;
 
 color: #212121;
-margin-top: 94px;
+
 margin-bottom: 50px;
 }
 
@@ -414,7 +415,7 @@ text-align: center;
 letter-spacing: 0.03em;
 
 color: var(--mail-color);
-margin-bottom: 28px;
+margin-bottom: 16px;
 }
 .employes {
     display: flex;
@@ -431,6 +432,7 @@ margin-bottom: 28px;
     display: flex;
     justify-content: center;
     gap: 10px;
+    margin-top: 16px;
 }
 
 .social-list-link {
@@ -456,6 +458,17 @@ margin-bottom: 28px;
 .social-list-link:hover .social-list-icon,
 .social-list-link:focus  .social-list-icon {
     fill: var(--whitey-color);
+}
+
+.client-link:hover .client-icon,
+.client-link:focus .client-icon {
+    fill: var(--knob-color)
+}
+
+.client-link:hover 
+.client-link:focus {
+    fill: var(--mail-color);
+    border: 1px solid #188CE8;
 }
 
 
