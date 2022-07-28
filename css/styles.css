@@ -368,17 +368,17 @@ margin-bottom: 50px;
     fill: #AFB1B8;
 }
 
-.client-item:hover .client-icon,
-.client-item:focus .client-icon{
+.client-link:hover .client-icon,
+.client-link:focus .client-icon{
     fill:#2196F3;
 }
 
 .client-link:hover,
 .client-link:focus {
-    fill:#2196F3;
-    border: 1px solid var(--accent-color);
-    border-radius: 4px;
+    border-color: #2196F3;
 }
+
+
 /*-----------------------------------/HERO--*/
 
  /*----------------------------------ABOUT--*/
@@ -458,11 +458,7 @@ margin-bottom: 16px;
     background-color: #2196F3;
 }
 
-.client-item:hover, 
-.client-item:focus {
-    fill: var(--mail-color);
-    border: 1px solid #188CE8;
-}
+
 
 
 .team {
@@ -523,6 +519,11 @@ letter-spacing: 0.03em;
 
 color: var(--text-color);
 }
+
+
+
+
+
 /*----------------------------------/ABOUT--*/
 
 .footer {
