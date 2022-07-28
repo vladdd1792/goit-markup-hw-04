@@ -448,14 +448,14 @@ margin-bottom: 16px;
     fill: #AFB1B8;
 }
 
-.social-list-link:hover 
-.social-list-link:focus   {
+.social-list-link:hover  .social-list-icon,
+.social-list-link:focus   .social-list-icon{
     fill: var(--whitey-color);
 }
 
-.client-item:hover .client-link,
-.client-item:focus .client-link{
-    fill: var(--knob-color)
+.social-list-link:hover,
+.social-list-link:focus {
+    background-color: #2196F3;
 }
 
 .client-item:hover, 
